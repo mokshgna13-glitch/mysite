@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f7f1">
+  <meta name="description" content="Mokshgna's portfolio: coding, creative projects, and technology.">
+  <title>Mokshgna | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Pacifico&family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <a href="#home" class="logo"><span>Terli</span> Mokshgna</a>
+
+    <nav class="nav-links" id="main-navigation" aria-label="Main navigation">
+      <a href="#home" class="active">Home</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+
+    </nav>
+
+    <button class="menu-toggle"
+      type="button"
+      aria-label="Toggle navigation"
+      aria-controls="main-navigation"
+      aria-expanded="false">☰</button>
+  </header>
+
+  <!-- HERO -->
+  <main class="hero" id="home">
+    <section class="intro">
+      <h1>Hy! I AM</h1>
+      <h2>Terli Mokshgna</h2>
+    </section>
+
+    <p class="tagline">
+      I design everything technical,<br>
+      or I must say DIGITAL!!
+    </p>
+
+    <svg class="curved-arrow" viewBox="0 0 330 180"
+      fill="none" aria-hidden="true">
+      <path d="M12 15 C12 165 72 135 145 76 S245 -10 305 28"
+        stroke="currentColor" stroke-width="2" stroke-dasharray="9 9"/>
+      <path d="M5 22 L12 15 L19 22"
+        stroke="currentColor" stroke-width="2"/>
+    </svg>
+
+    <div class="experience">
+      <strong>09</strong>
+      <span>CLASS<br>STUDENT</span>
+    </div>
+
+    <div class="portrait">
+      <img src="Pic.png" alt="Portrait of Mokshgna">
+    </div>
+
+    <div class="signature">
+      <span>Creative</span>
+      <strong>Person</strong>
+    </div>
+  </main>
+
+  <!-- INTERESTS -->
+  <section class="below interests-section" id="services">
+    <h2>My Interests</h2>
+    <p class="section-description">I have a lot of interests.</p>
+
+    <div class="interest-container">
+      <article class="cool-box">
+        <div class="box-top">
+          <div class="box-icon" aria-hidden="true">&lt;/&gt;</div>
+          <span>01. INTERESTS</span>
+        </div>
+        <h3>Coding</h3>
+        <p>I love coding although I am a beginner.</p>
+        <div class="progress"><div class="progress-fill"></div></div>
+      </article>
+
+      <article class="cool-box">
+        <div class="box-top">
+          <div class="box-icon" aria-hidden="true">▤</div>
+          <span>02. INTERESTS</span>
+        </div>
+        <h3>Reading</h3>
+        <p>I love reading different books, especially fiction. My favourite author is Enid Blyton.</p>
+        <div class="progress"><div class="progress-fill"></div></div>
+      </article>
+
+      <article class="cool-box">
+        <div class="box-top">
+          <div class="box-icon" aria-hidden="true">✦</div>
+          <span>03. INTERESTS</span>
+        </div>
+        <h3>Gaming</h3>
+        <p>I love playing games. My favourite game is Roblox Rivals.</p>
+        <div class="progress"><div class="progress-fill"></div></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="below projects-section" id="projects">
+    <h2>Selected Projects</h2>
+    <p>My experiments, designs and things I've built.</p>
+
+    <div class="project-container">
+      <article class="cool-box">
+        <div class="box-top">
+          <div class="box-icon" aria-hidden="true">♻</div>
+          <span>01. PROJECT</span>
+        </div>
+        <h3>Waste Segregator Machine</h3>
+        <p>I made it with a friend for a science fair in Class 7.</p>
+        <div class="progress"><div class="progress-fill"></div></div>
+      </article>
+
+      <article class="cool-box">
+        <div class="box-top">
+          <div class="box-icon" aria-hidden="true">⌕</div>
+          <span>02. PROJECT</span>
+        </div>
+        <h3>A Thief Detection Device</h3>
+        <p>I made it with a friend for a science fair in Class 7.</p>
+        <div class="progress"><div class="progress-fill"></div></div>
+      </article>
+
+      <article class="cool-box">
+        <div class="box-top">
+          <div class="box-icon" aria-hidden="true">◈</div>
+          <span>03. PROJECT</span>
+        </div>
+        <h3>A Pokédex with ~300 Pokémon</h3>
+        <p>I made it for fun, with help from a friend.</p>
+        <div class="progress"><div class="progress-fill"></div></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="below contact-section" id="contact">
+    <h2>Let's Connect<span>.</span></h2>
+    <p class="section-description">
+      Have an idea, a project, or just want to talk tech?
+      Send me a message.
+    </p>
+
+    <div class="contact-layout">
+      <div class="contact-socials">
+        <a class="contact-card"
+          href="https://github.com/mokshgna13-glitch"
+          target="_blank" rel="noopener noreferrer">
+          <span class="contact-icon" aria-hidden="true">&lt;/&gt;</span>
+          <span class="contact-card-text">
+            <strong>GitHub</strong>
+            <small>Explore my code and projects.</small>
+          </span>
+          <span class="contact-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <button class="contact-card email-card"
+          type="button" id="open-email-popup">
+          <span class="contact-icon" aria-hidden="true">@</span>
+          <span class="contact-card-text">
+            <strong>Email Me</strong>
+            <small>Let's talk about ideas.</small>
+          </span>
+          <span class="contact-arrow" aria-hidden="true">↗</span>
+        </button>
+
+        <div class="contact-note">
+          <span class="availability-dot"></span>
+          Always curious. Always building.
+        </div>
+      </div>
+
+      <div class="contact-form-card">
+        <h3>Send me a message</h3>
+        <p class="form-intro">
+          Fill in the details below and I'll get your message.
+        </p>
+
+        <form id="contact-form"
+          action="https://formspree.io/f/xqppzgna"
+          method="POST">
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="contact-name">Your name</label>
+              <input type="text" id="contact-name" name="name"
+                placeholder="Your name" autocomplete="name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-email">Your email</label>
+              <input type="email" id="contact-email" name="email"
+                placeholder="you@example.com" autocomplete="email" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-subject">Subject</label>
+            <input type="text" id="contact-subject" name="subject"
+              placeholder="What's this about?" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-message">Your message</label>
+            <textarea id="contact-message" name="message" rows="5"
+              placeholder="Tell me about your idea..." required></textarea>
+          </div>
+
+          <div class="form-honeypot" aria-hidden="true">
+            <label for="contact-website">Leave this field empty</label>
+            <input type="text" id="contact-website" name="_gotcha"
+              tabindex="-1" autocomplete="off">
+          </div>
+
+          <button class="contact-submit" type="submit">
+            <span class="submit-text">Send Message</span>
+            <span aria-hidden="true">↗</span>
+          </button>
+
+          <p id="form-status" class="form-status"
+            role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- EMAIL POPUP: OUTSIDE THE CONTACT SECTION -->
+  <div class="email-popup-overlay" id="email-popup" aria-hidden="true">
+    <div class="email-popup" role="dialog" aria-modal="true"
+      aria-labelledby="email-popup-title">
+
+      <button class="email-popup-close" id="close-email-popup"
+        type="button" aria-label="Close popup">×</button>
+
+      <div class="email-popup-icon" aria-hidden="true">@</div>
+      <p class="email-eyebrow">LET'S CONNECT</p>
+      <h2 id="email-popup-title">Drop me a line<span>.</span></h2>
+
+      <p class="email-popup-description">
+        Got an idea, a question, or a cool project? My inbox is open.
+      </p>
+
+      <div class="email-address-box">
+        <span id="popup-email-address">mokshgna13@gmail.com</span>
+        <button id="copy-email" type="button">Copy</button>
+      </div>
+
+      <a class="email-popup-send" href="mailto:mokshgna13@gmail.com">
+        Open Email App <span aria-hidden="true">↗</span>
+      </a>
+
+      <p class="email-popup-status" id="email-popup-status"
+        role="status" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <footer>
+    Made with curiosity by Mokshgna.
+  </footer>
+
+</body>
+</html>
