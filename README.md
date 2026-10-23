@@ -36,3 +36,11 @@ I made it with a friend for a science fair in Class 7.
 I made it for fun, with help from a friend.
 
 And Then a contact section with a Working form , I used Formspree to make it work without a backend .
+
+Why I made this project?
+
+It was simple and easy to build as I am learning coding as A beginer , It also  helps others know about me without me telling them everything and while applying t jobs etc I can use it as a PORTFOLIO!!!
+
+It was a lot of fun coding it and I hope I can enjoy the Reward with same happiness and satisfaction.
+
+Thanks FOR READING MY README.md
